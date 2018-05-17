@@ -1,0 +1,155 @@
+. {
+	font-family: Arial, Helvetica, Sans-Serif;
+	color:#333;
+	
+}
+
+body {
+	background: url(../imagenes/fondo_notas.jpg) top;
+	font:80% Trebuchet MS, Arial, Helvetica, Sans-Serif;
+	color:#333;
+	/*line-height:180%;*/
+	margin:0;
+	padding:0;
+/*	text-align:center;*/
+vertical-align: top;
+}
+/*---bloque h1 para texto de sline notas----*/
+h1	{
+	margin: 25px 0 5px 5px;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+	/*line-height: 13px;*/
+}
+/*---bloque h1 para texto de sline notas----*/
+h2{
+	font-size:160%;
+	font-weight:normal;
+}	
+
+h3{
+	font-size:140%;
+	font-weight:normal;
+}	
+	
+img {
+	margin: 5px 0 0 0;
+	padding: 0;
+	border: none;
+}
+
+img.vermas{
+	margin: 0 0 0 5px;
+	padding: 0;
+	border: none;
+}
+	
+table{
+	/*background-image:url(../imagenes/fondo_notas.jpg);*/
+	height:712px;
+	background-color:#E1E1E1;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-collapse: collapse;
+	width: 1072px;
+
+}
+
+td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	vertical-align: top;
+}
+
+pre{
+	display:block;
+	font:12px "Courier New", Courier, monospace;
+	padding:10px;
+	border:1px solid #bae2f0;
+	background:#e3f4f9;	
+	margin:.5em 0;
+	width:600px;
+	vertical-align: top;
+}	
+			
+/* image replacement */
+.graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+	margin:0;
+	padding:0;
+	display:block;
+	overflow:hidden;
+	text-indent:-8000px;
+}
+
+/* // image replacement */
+			
+#container{	
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+	width:1072px;
+	background:#fff;		
+	margin-bottom:2em;
+	border: none;
+}	
+
+#header{
+	height:80px;
+	line-height:80px;
+	background:#5DC9E1;
+	color:#fff;
+}				
+
+#content{
+	position:relative;
+}			
+
+/* Easy Slider */
+#slider ul, #slider li, #slider2 ul, #slider2 li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+}
+
+#slider2{
+	margin-top:1em;
+}
+
+#slider li, #slider2 li { 
+	width:1072px;
+	height:710px;
+	overflow:hidden; 
+}	
+
+#prevBtn, #nextBtn, #slider1next, #slider1prev{ 
+	display:block;
+	width:30px;
+	height:350px;
+	position:absolute;
+	left:-15px;
+	top:71px;
+	z-index:1000;
+}	
+
+#nextBtn, #slider1next{ 
+	left:1072px;
+}														
+
+#prevBtn a, #nextBtn a, #slider1next a, #slider1prev a{  
+	display:block;
+	position:absolute;
+	width:30px;
+	height:350px;
+	background: url(../imagen/flecha_izq.png) no-repeat 0 0;	
+}	
+
+#nextBtn a, #slider1next a{ 
+	background:url(../imagen/flecha_der.png) no-repeat 0 0;	
+}	
+/* // Easy Slider */
